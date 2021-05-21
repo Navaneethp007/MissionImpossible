@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int T,N,X,i;
+int S[N],R[N];
+cin>>T;
+if(1<=T<=10)
+{
+    while(T-- >0)
+    {
+        if(1<=N<=5*10^4 && 1<=X<=10^9)
+        cin>>N>>X;
+        int m=0;
+        for(i=0;i<N; i++)
+        {
+            cin>>S[i]>>R[i];
+            if(S[i]<=X)
+            {
+                if(R[i]>m)
+                {
+                    m=R[i];
+                }
+            }
+        }
+        cout<<m<<"\n";
+    }
+}
+return 0;
+}
+	
