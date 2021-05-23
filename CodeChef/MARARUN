@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,D,d,A,B,C,b;
+	cin>>T;
+	if(1<=T<=50)
+	{
+	  while(T-- >0)
+	  {
+	      cin>>D>>d>>A>>B>>C;
+	      b=d*D;
+	      if(1<=D<=10 && 1<=d<=5 && 1<=A<B<C<10^5)
+	      {
+	          if(10<=b && b<21)
+	          {
+	              cout<<A<<"\n";
+	          }
+	          else if(21<=b && b<42)
+	          {
+	              cout<<B<<"\n";
+	          }
+	          else if(42<=b)
+	          {
+	              cout<<C<<"\n";
+	          }
+	          else if(b<10)
+	          {
+	            cout<<0<<"\n";
+	          }
+	      }   
+	  }
+	}
+	return 0;
+}
