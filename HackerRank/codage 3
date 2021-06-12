@@ -1,0 +1,35 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int fink(int n, int r)
+{
+    int p=1,f=-1;
+    int v=n+1;
+    for(int i=1; i<=n; i++)
+    {
+        int c=(p*(n-i+1))/i;
+        if(p%v==r)
+        {
+            f=i-1;
+            break;
+        }
+        p=c;
+    }
+    return f;
+}
+int main() {
+    long long int t;
+    cin>>t;
+    while(t-- >0)
+    {
+        int n,r;
+        cin>>n>>r;
+        long long int c=pow(2,n)-1;
+        cout<<fink(c,r)<<"\n";
+    }
+    return 0;
+}
