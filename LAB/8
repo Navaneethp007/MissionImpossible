@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+
+main() {
+  char t[20];
+  int i=0,l=0,f=0;
+  printf("Enter text \n");
+  gets(t);
+  while(t[i]!='\0')
+  {
+    l++;
+    i++;
+  }
+  for(i=0;i<l/2;i++)
+  {
+    for(int j=l-1; j>l/2; j--)
+    {
+      if(t[i]==t[j])
+      {
+        f=1;
+      }
+
+    }
+  }
+  if(f!=0)
+  {
+    printf("%s is a palindrome\n",t);
+  }
+  else
+  {
+    printf("%s is not a palindrome\n",t);
+  }
+}
