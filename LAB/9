@@ -1,40 +1,22 @@
 #include <stdio.h>
-#include <math.h>
 
 void main() {
-  char t[100],c[100],a[200];
-  int i=0,j=0 ,l=0,f=0;
+  char t[100],c[100];
+  int i,j,k;
   printf("Enter 1st text \n");
   gets(t);
   printf("Enter 2nd text \n");
   gets(c);
-  while(1)
+  for(i=0;t[i]!='\0';i++)
   {
-    if(t[j]!='$')
-    {
-      a[i++]=t[j++];
-    }
-    else
-    {
-      break;
-    }  
+    ;
   }
-  a[i]=" ";
-  i++;
-  j=0;
-  while(1)
+  t[i]=' ';
+  for(j=0;j<c[j]!='\0';j++)
   {
-    if(c[j]!='$')
-    {
-      
-      a[i++]=c[j++];
-    }
-    else
-    {
-      break;
-    }
+    t[i+j+1]=c[j];
   }
-  a[i]='\0'; 
-  printf("%s is the concatenated text \n",a);
+  t[i+j+2]='\0';
+
+  printf("%s is the concatenated text \n",t);
 }
-  
