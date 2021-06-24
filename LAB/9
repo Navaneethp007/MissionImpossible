@@ -11,12 +11,11 @@ void main() {
   {
     ;
   }
-  t[i]=' ';
   for(j=0;j<c[j]!='\0';j++)
   {
-    t[i+j+1]=c[j];
+    t[i+j+]=c[j];
   }
-  t[i+j+2]='\0';
+  t[i+j+1]='\0';
 
   printf("%s is the concatenated text \n",t);
 }
