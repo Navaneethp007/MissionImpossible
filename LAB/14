@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<string.h>
+struct employee{
+char  name[50];
+int id;
+int s;
+};
+int main(){
+int n;
+
+printf("Enter the no. of employees=");
+scanf("%i",&n);
+
+struct employee em[n];
+
+for(int p=1;p<=n;p++){
+    printf("\n");
+    printf("Enter the details of employee %i:\n",p);
+    printf("Name:");
+    scanf("%s", &em[p].name);
+    printf("Employee id:");
+    scanf("%i",&em[p].id);
+    printf("Salary:");
+    scanf("%i",&em[p].s);
+}
+for(int p=1;p<=n;p++){
+    printf("\n");
+    printf("\n The details of %i employee: \n",p);
+    printf("Name:%s",em[p].name);
+    printf("\nEmployee id:%i",em[p].id);
+    printf("\nSalary:%i",em[p].s);
+}    
+return 0;
+}
