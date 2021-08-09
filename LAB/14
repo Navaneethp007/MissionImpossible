@@ -1,34 +1,34 @@
 #include<stdio.h>
 #include<string.h>
 struct employee{
-char  name[50];
+char name[50];
 int id;
 int s;
 };
 int main(){
-int n;
+int n=0, f=1;
 
-printf("Enter the no. of employees=");
-scanf("%i",&n);
 
-struct employee em[n];
+struct employee em[50];
+while(f==1){
+    n++;
+    
+        printf("Enter the details of %i employee:\n",n);
+        printf("Name:");
+        scanf("%s",&em[n].name);
+        printf("Id:");
+        scanf("%i",&em[n].id);
+        printf("Salary::");
+        scanf("\n %i",&em[n].s);
+    
+    printf("Do you need to enter more data [if yes =1|if no =0]::\n");
+    scanf("%i", &f);
+    
 
-for(int p=1;p<=n;p++){
-    printf("\n");
-    printf("Enter the details of employee %i:\n",p);
-    printf("Name:");
-    scanf("%s", &em[p].name);
-    printf("Employee id:");
-    scanf("%i",&em[p].id);
-    printf("Salary:");
-    scanf("%i",&em[p].s);
 }
-for(int p=1;p<=n;p++){
-    printf("\n");
-    printf("\n The details of %i employee: \n",p);
-    printf("Name:%s",em[p].name);
-    printf("\nEmployee id:%i",em[p].id);
-    printf("\nSalary:%i",em[p].s);
-}    
-return 0;
+
+printf("\n--Name--------Id------Salary-------::\n");
+for(int p = 1; p <= n; p++){
+    printf("%s   %i    %i    \n", em[p].name,em[p].id,em[p].s);
+}
 }
