@@ -6,6 +6,6 @@ int main(){
     printf("Enter 2 numbers: ");
     scanf("%d%d",d,e);
     c=*d+*e;
-    printf("\nSum is %d\n",c);
+    printf("\Sum is %d\n",c);
     return 0;
 }
