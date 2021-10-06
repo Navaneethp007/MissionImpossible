@@ -1,4 +1,12 @@
-There are n number of sportspersons and each of their induvial scores are also given.They are stuck between two pillars. Each pillar has a strength. A sportsperson can come out only if he/she breaks both the pillars.Only one pillar can be broken at a time. A pillar can be broken only if its strength is a multiple of the score of the sportsperson. We have to find the number of sportspersons who can come out of the pillars. Input: N number of sprtspersons Scores of sportspersons Strength of pillars Output: number of sportspersons who can come out of the pillars
+//There are n number of sportspersons and each of their induvial scores are also given.They are stuck between two pillars. Each pillar has a strength. A sportsperson can 
+come out only if he/she breaks both the pillars.Only one pillar can be broken at a time. A pillar can be broken only if its strength is a multiple of the score of the 
+sportsperson. We have to find the number of sportspersons who can come out of the pillars. 
+
+Input: N number of sprtspersons Scores of sportspersons Strength of pillars 
+
+Output: number of sportspersons who can come out of the pillars
+
+This is the question//
 
 #include <cmath>
 #include <cstdio>
