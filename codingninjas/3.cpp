@@ -22,3 +22,13 @@
 // Fourth line contains array ‘D’ of ‘N’ space separated integers.
 // Output Format :
 // You need to output a single integer , denoting the sum of elements chosen from array C .
+
+// Sample Input 1:
+// 5 15
+// 1 2 2 1 1
+// 3 6 4 7 11
+// 2 7 1 5 4
+// Sample Output 1 :
+// 12
+// Explanation :
+// C[i] formed from this input will be : [2 , 2 , 2 ,4 ,4 ] (Assuming the first element shown in array is C[1] , i.e. 1 -index based)  . So one of the optimal way to choose from here is to choose the sum of C[5] , C[4] , C[3] and C[1] . This will be equal to 12
