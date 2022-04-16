@@ -14,7 +14,7 @@ int main() {
             cin>>a;
             if(a<0)
             {
-                r+=m;
+                r+=m;//increases when a pair is found
                 m++;
             }
             else if(a>0)
