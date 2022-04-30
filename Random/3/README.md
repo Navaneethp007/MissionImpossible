@@ -11,9 +11,11 @@ following properties as mentioned:
     If A[i] is odd :- A[i] = A[i] + (A[i] & r)
     Where ‘&’ is the binary AND operation .
 
-You are required to transform A[i] to B[i] and store the minimum number of transformations required for that in C[i] . Do these operations for all i , 1 <= i <= N and store in the respective index in C .
-Given Array D is associated with Array C (i.e. D[i] is associated with C[i] ) . You need to choose elements from array C in such a way that you can maximize the sum of elements chosen . But the cost of choosing element C[i] is D[i] . You also need to make sure that total cost of choosing elements from C[i] does not exceed X .
-Return the sum of elements chosen from array C .
+You are required to transform A[i] to B[i] and store the minimum number of transformations required for that in C[i] . Do these operations for all i , 1 <= i <= N 
+and store in the respective index in C.
+Given Array D is associated with Array C (i.e. D[i] is associated with C[i]). You need to choose elements from array C in such a way that you can maximize 
+the sum of elements chosen . But the cost of choosing element C[i] is D[i] . You also need to make sure that total cost of choosing elements from C[i] 
+does not exceed X.Return the sum of elements chosen from array C.
 
 Input Format :
  First line contains the two integers ‘N’ and ‘X’.
@@ -22,7 +24,7 @@ Input Format :
  Fourth line contains array ‘D’ of ‘N’ space separated integers.
 
 Output Format :
- You need to output a single integer , denoting the sum of elements chosen from array C .
+ You need to output a single integer , denoting the sum of elements chosen from array C.
 
 Sample Input 1:
  5 15
