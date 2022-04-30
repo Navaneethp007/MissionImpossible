@@ -7,8 +7,8 @@ between R and S is maximum. An anagram of a string is another string that contai
 Hamming distance between two strings of equal length is the number of positions at which the corresponding character is different.
 
 Input Format :
- -The first line of input contains a single integer T - the number of test cases.
- -The first and the only line of each test case contains a string S.
+ - The first line of input contains a single integer T - the number of test cases.
+ - The first and the only line of each test case contains a string S.
 
 Output Format :
- -Print the maximum hamming distance between S and R.
+ - Print the maximum hamming distance between S and R.
