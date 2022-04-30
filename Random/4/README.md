@@ -30,9 +30,9 @@ Sample Output 1:
   Substring "sa" is not present in the string "malik".So 0 moves are performed.
 
 Sample Input 2:
- 5
- caaba
- ab
+ - 5
+ - caaba
+ - ab
 
 Sample Output 2:
- 2
+ - 2
