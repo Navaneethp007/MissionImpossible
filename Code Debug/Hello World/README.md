@@ -5,8 +5,10 @@ using namespace std;
 
 int main()
 {
-    cin>>n;
-    cout<<n;
+   
+   cin>>n;
+   
+   cout<<n;
    
 }
 
