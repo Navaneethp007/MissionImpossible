@@ -2,7 +2,7 @@
  
 <h1>Welcome Competitive programmers!!!!!!!!!!</h1>
  
-This is a repo where you can submit/find solutions of various competitive programming questions solved mostly in cpp but all programming languages are welcome. Some of the platforms which are used in the repo are:
+This is a repo where you can submit/find solutions of various competitive programming questions solved mostly in cpp but all programming languages are welcome. The folders which are used in the repo are:
  - CodeChef
  - HackerRank
  - Google Kick Start
