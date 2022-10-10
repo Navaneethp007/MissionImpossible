@@ -1,8 +1,8 @@
  ## <<<<<<<<<<<<<<<<- Mission_Impossible ->>>>>>>>>>>>>>>>> 
 
-<h2>Welcome Competitive programmers.......</h2>
+<h2>Welcome aboard Competitive programmers.......</h2>
  
- <h3> This repo is available for hacktober fest 2022</h3>
+ 
 This is a repo where you can submit/find solutions of various competitive programming questions solved mostly in cpp but all programming languages are welcome. The folders which are used in the repo are:
  - CodeChef
  - LeetCode
