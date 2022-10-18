@@ -10,4 +10,4 @@ For example, 121 is a palindrome while 123 is not.
 let isPalindrome = function (x) {
   return x.toString() == x.toString().split("").reverse().join("");
 };
-console.log(isPalindrome(1234));
+
