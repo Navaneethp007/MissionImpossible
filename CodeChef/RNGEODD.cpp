@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int L,R;
-    cin>>L>>R;
-    for(int i=L;i<=R;i++)
-    {
-        if(i%2!=0)
-        {
-            cout<<i<<" ";
-        }
+int main(){
+    int a, b;
+    cin>>a>>b;
+    if(a%2==0){
+        a++;
     }
-	return 0;
+    for(int i=a; i<=b; i+=2)
+        cout<<i<<" ";
+    cout<<endl;
+    return 0;
 }
