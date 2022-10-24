@@ -1,44 +1,23 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main() {
-    int a,b,c;
-    cin>>a;
-    cin>>b;
-    cin>>c;
+int main(){
+    int a, b, c;
+    cin>>a>>b>>c;
     if(a>b && a>c)
-    {
-        if(b>c)
-        {
-            cout<<b;
-        }
+        if (b>c)
+            cout<<b<<endl;
         else
-        {
-            cout<<c;
-        }
-    }
-    else if(b>a && b>c)
-    {
+            cout<<c<<endl;
+    else if(b>c && b>a)
         if(a>c)
-        {
-            cout<<a;
-        }
-        else
-        {
-            cout<<c;
-        }
-    }
-    else if(c>a && c>b)
-    {
+            cout<<a<<endl;
+        else    
+            cout<<c<<endl;
+    else
         if(a>b)
-        {
-            cout<<a;
-        }
+            cout<<a<<endl;
         else
-        {
-            cout<<b;
-        }
-    }
-
-	return 0;
+            cout<<b<<endl;
+    return 0;
 }
