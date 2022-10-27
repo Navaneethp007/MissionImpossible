@@ -1,6 +1,4 @@
-/*
-    Ayush Budhiraja
-*/
+
 
 #include <bits/stdc++.h>
 #include <chrono>
@@ -336,3 +334,5 @@ int32_t main()
 
     return 0;
 }
+
+// Problem link:https://codeforces.com/contest/1702/problem/G1
