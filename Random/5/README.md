@@ -1,8 +1,8 @@
 ## Question 5
 
-Groot has the ability to grow trees from his body . But he is not smart enough to solve tree data structure problems .Help him solve the following problem 
+Groot has the ability to grow trees from his body. But he is not smart enough to solve tree data structure problems.Help him solve the following problem 
 so that he can become the Guardian of Competitive Coding. You are given a directed rooted tree with N vertices. Each node in the tree has some weight associated 
-with it, which is given in an array A, where A[i] denotes the weight of the ith node. If you are standing at node A, you earn points equal to the sum of weights
+with it, which is given in an array A, where A[i] denotes the weight of the ith node. If you are standing at node A, you earn points equal to the sum of the weights
 of all the descendants of A. So, if you are at a leaf node, you will earn 0 points as leaf nodes have no children.
 
 In the tree shown above, the value inside the nodes represents the node number, and the outer value represents the weight of the node.
