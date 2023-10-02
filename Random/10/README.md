@@ -12,13 +12,13 @@ Constraints
 - nums[i] != nums[i + 1] for all valid i.
 
 Output Format
-An integer representing the index of the peak element in the nums array.
+- An integer representing the index of the peak element in the nums array.
 
 Sample Input 0
-1 3 20 4 1
+- 1 3 20 4 1
 
 Sample Output 0
-2
+- 2
 
 Explanation 0
-20 is a peak element and your function should return the index number 2.
+- 20 is a peak element and your function should return the index number 2.
